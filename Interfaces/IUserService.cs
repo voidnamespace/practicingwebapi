@@ -1,5 +1,5 @@
 using AppNum5.Models;
-
+using AppNum5.Services;
 public interface IUserService
 {
     Task<UserDTO?> GetByIdAsync(int id);
